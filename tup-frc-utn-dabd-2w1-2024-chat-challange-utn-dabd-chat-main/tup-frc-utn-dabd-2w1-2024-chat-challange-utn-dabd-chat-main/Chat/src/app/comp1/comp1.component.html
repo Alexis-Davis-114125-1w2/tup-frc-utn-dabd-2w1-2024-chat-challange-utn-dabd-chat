@@ -1,0 +1,9 @@
+<div class="card">
+    <div class="card-header">
+      Usuario: {{ user }}
+    </div>
+    <div class="card-body">
+      <textarea class="form-control" (input)="onInput($event)" rows="3"></textarea>
+      <button class="btn btn-primary mt-3" (click)="sendMessage()">Guardar</button>
+    </div>
+  </div>
